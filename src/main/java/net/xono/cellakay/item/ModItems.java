@@ -12,14 +12,16 @@ import net.xono.cellakay.CellaKay;
 
 public class ModItems {
 
-    public static final Item RUBY = registerItem(new Item(new FabricItemSettings()));
+    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
-    private static Item registerItem(Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CellaKay.MOD_ID, "ruby"), item);
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(CellaKay.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
