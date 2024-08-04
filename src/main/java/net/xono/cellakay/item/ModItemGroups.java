@@ -15,9 +15,15 @@ public class ModItemGroups {
             new Identifier(CellaKay.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cellakay.items"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                    }).build());
+
+    public static final ItemGroup CELLA_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CellaKay.MOD_ID, "ruby"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cellakay.blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE_BLOCK);
                     }).build());
 
 

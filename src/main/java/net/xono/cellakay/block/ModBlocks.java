@@ -14,6 +14,8 @@ import net.xono.cellakay.CellaKay;
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
