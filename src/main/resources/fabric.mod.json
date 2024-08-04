@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cellakay",
+	"version": "${version}",
+	"name": "Cella Kay",
+	"description": "Mod używany do serwera KayTech!",
+	"authors": [
+		"Xono"
+	],
+	"contact": {
+		"homepage": "https://kaytech.org/",
+		"sources": "https://dsc.gg/kaytech"
+	},
+	"license": "MIT",
+	"icon": "assets/cellakay/logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.xono.cellakay.CellaKay"
+		],
+		"client": [
+			"net.xono.cellakay.CellaKayClient"
+		],
+		"fabric-datagen": [
+			"net.xono.cellakay.CellaKayDataGenerator"
+		]
+	},
+	"mixins": [
+		"cellakay.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
