@@ -2,6 +2,8 @@ package net.xono.cellakay;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.xono.cellakay.block.ModBlocks;
+import net.xono.cellakay.item.ModItemGroups;
 import net.xono.cellakay.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,9 @@ public class CellaKay implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
