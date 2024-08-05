@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.MINI_COAL);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE_BLOCK);
                     }).build());
