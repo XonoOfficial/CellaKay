@@ -1,7 +1,6 @@
-Added Tomato:
-    - 25% chance: gives luck for 10 seconds
-    - 4 points of hunger
-
-Added Mini Coal:
-    - Burn time 450 (2 items per mini coal)
-    - Recipe from coal to 4 mini
+Add fabric data generator
+Add mod tags
+Add ruby doors
+Add ruby plates
+Add ruby Stairs
+Add ruby Fences
