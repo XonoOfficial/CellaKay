@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "coals"
+    }
+  ],
+  "result": {
+    "item": "cellakay:mini_coal",
+    "count": 4
+  }
+}
