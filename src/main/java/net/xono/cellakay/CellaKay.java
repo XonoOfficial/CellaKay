@@ -2,6 +2,7 @@ package net.xono.cellakay;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.xono.cellakay.block.ModBlocks;
 import net.xono.cellakay.item.ModItemGroups;
 import net.xono.cellakay.item.ModItems;
@@ -18,5 +19,7 @@ public class CellaKay implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.MINI_COAL, 400);
 	}
 }

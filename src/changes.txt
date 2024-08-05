@@ -1,3 +1,7 @@
 Added Tomato:
     - 25% chance: gives luck for 10 seconds
     - 4 points of hunger
+
+Added Mini Coal:
+    - Burn time 400 (2 items per mini coal)
+    - Recipe from coal to 4 mini
