@@ -1,2 +1,2 @@
 Added Tomato:
-    - Gives luck and 4 hunger
+    - Gives luck for 10 seconds and 4 hunger
