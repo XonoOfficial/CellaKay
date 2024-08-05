@@ -1,0 +1,2 @@
+Added Tomato:
+    - Gives luck and 4 hunger
