@@ -3,5 +3,5 @@ Added Tomato:
     - 4 points of hunger
 
 Added Mini Coal:
-    - Burn time 400 (2 items per mini coal)
+    - Burn time 450 (2 items per mini coal)
     - Recipe from coal to 4 mini

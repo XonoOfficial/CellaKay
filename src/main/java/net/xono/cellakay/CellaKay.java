@@ -20,6 +20,6 @@ public class CellaKay implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.MINI_COAL, 400);
+		FuelRegistry.INSTANCE.add(ModItems.MINI_COAL, 450);
 	}
 }
