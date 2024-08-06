@@ -1,10 +1,10 @@
 {
   "item.cellakay.ruby": "Rubin",
   "item.cellakay.raw_ruby": "Surowy Rubin",
-
-  "itemgroup.cellakay.items": "Cella Kay",
+  "item.cellakay.tomato": "Pomidor",
+  "item.cellakay.mini_coal": "Mini Węgiel",
   "block.cellakay.ruby_block": "Blok Rubinu",
   "block.cellakay.ruby_ore": "Ruda Rubinu",
-  "item.cellakay.tomato": "Pomidor",
-  "item.cellakay.mini_coal": "Mini Węgiel"
+  "block.cellakay.taderore": "Ruda Tader",
+  "itemgroup.cellakay.items": "Cella Kay"
 }

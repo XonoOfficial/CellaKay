@@ -18,6 +18,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 6)));
+    public static final Block TADER_ORE = registerBlock("taderore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 6)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
